@@ -1,0 +1,121 @@
+body{
+  background-color: hsl(233, 47%, 7%);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: 0;
+  /* padding: 10vh 10vw; */
+
+}
+
+.card{
+  /* margin : 10vh 0 10vh 10vw; */
+  border-radius:  7px 0 0 7px;
+  background-color: hsl(244, 38%, 16%);
+  height: 62vh;
+  width: 40vw;
+  color:hsl(0, 0%, 100%);
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+.pic{
+  /* margin : 10vh 10vw 10vh 0; */
+  border-radius:0 7px 7px 0 ;
+  /* height: 332px;
+  width: 403px; */
+/* color:hsl(277, 64%, 61%); */
+  height: 62vh;
+  width: 39vw;
+  filter: contrast(140%);
+}
+/* img {
+  filter: grayscale(2000%);
+  mix-blend-mode: multiply;
+  background-color: hsl(277, 64%, 61%); Any color you want
+} */
+.unique{
+  position: absolute;
+  background-color: hsl(277, 100%, 32%);
+  opacity:50%;
+  mix-blend-mode:normal;
+margin-right: 10vw;
+margin-left: 50vw;
+
+}
+
+.head{
+  color: hsl(0, 0%, 100%);
+  font-family: "Inter", serif;
+  font-optical-sizing: auto;
+  font-weight: 700;
+  font-style: normal;
+  margin: 0;
+  margin-left: 5vw;
+  margin-top: 5vw;
+  margin-right: 6vw;
+width: fit-content;
+height: fit-content;
+font-size: 2.7vw;
+}
+span{
+  color: hsl(277, 64%, 61%);
+}
+.paragraph{
+  color: hsla(0, 0%, 100%, 0.75);
+  font-family: "Inter", serif;
+  font-optical-sizing: auto;
+  font-weight: 310;
+  font-style: normal;
+  margin: 0;
+  margin-left: 5vw;
+  margin-top: 2.5vw;
+  margin-right: 10vw;
+width: fit-content;
+height: fit-content;
+font-size: 1vw;
+line-height: 1.8vw;
+
+}
+.stat{
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  /* align-items: spa; */
+  height: fit-content;
+   width: 40vw;
+  /*height: 62vh;
+  width: 39vw; */
+  margin-right: 10vw;
+  margin-left: 11vw;
+  margin-top: auto;
+  font-size: 2vw;
+
+}
+.s{
+  margin: 0;
+}
+.label{
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  /* align-items: spa; */
+  height: fit-content;
+   width: 40vw;
+  /*height: 62vh;
+  width: 39vw; */
+  margin-right: 12vw;
+  margin-left: 15vw;
+  margin-top: 0vw;
+  margin-bottom: auto;
+  font-size: 1vw;
+  padding-right: 3.6vw;
+  /* padding-left: 3vw; */
+
+}
+
+
+
